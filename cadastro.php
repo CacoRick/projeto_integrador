@@ -39,26 +39,22 @@
 									<div class="row">
 										<div class="col-6 col-12-small">
 											<fieldset><legend>Usuário</legend>
-												<form action="inserirusuario.php" method="POST">
-													<label>Nome</label>
-													<input type="text" name="nome"/>
-													<br>
+												<form action="verusuario.php" method="POST">
 													<label>Usuário</label>
 													<input type="text" name="usuario"/>
 													<br>
 													<label>Senha</label>
 													<input type="password" name="senha"/>
 													<br>
-													<input type="submit" value="Cadastrar">
+													<a href="elements.html">
+														<input type="button" value="Não sou cadastrado">
+													</a>
+													<input type="submit" value="Entrar">
 												</form>
 											</fieldset>
+										
 
 										 <nav class="menu">
-		                                   <ul>
-			                            <li><a href="cadastro.php">Voltar</a></li>
-			
-		                                   </ul>
                                         </nav>	
 									   </div>
 	 </body>
-</html>
